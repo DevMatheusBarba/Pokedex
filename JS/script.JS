@@ -38,6 +38,7 @@ const mostraPokemon = async (pokemon) => {
         pokemonName.innerHTML = "Não localizado";
         pokemonId.innerHTML = ""
         pokemonImagem.style.display = "none"
+        pesquisa.value = ""
 
     }
 
